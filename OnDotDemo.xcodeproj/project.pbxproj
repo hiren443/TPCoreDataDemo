@@ -10,6 +10,12 @@
 		784D8C0F6476E050DB37E309 /* Pods_OnDotDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF321C443AC4863E552B593B /* Pods_OnDotDemo.framework */; };
 		825F49105CB912415A67FD9D /* Pods_OnDotDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A116AD505627AA149D39C0E5 /* Pods_OnDotDemoTests.framework */; };
 		90DF89EB1FA305E300021192 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90DF89E91FA305E300021192 /* CoreDataModel.xcdatamodeld */; };
+		90DF89ED1FA3336F00021192 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF89EC1FA3336F00021192 /* CoreDataManager.swift */; };
+		90DF89FA1FA33C0D00021192 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF89F81FA33C0D00021192 /* Photo+CoreDataClass.swift */; };
+		90DF89FB1FA33C0D00021192 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF89F91FA33C0D00021192 /* Photo+CoreDataProperties.swift */; };
+		90DF89FE1FA3431E00021192 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF89FC1FA3431E00021192 /* APIService.swift */; };
+		90DF89FF1FA3431E00021192 /* CoreDataCntrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF89FD1FA3431E00021192 /* CoreDataCntrl.swift */; };
+		90DF8A011FA3434100021192 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF8A001FA3434100021192 /* PhotoCell.swift */; };
 		90E99FB21F6FA04A00B45CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E99FB11F6FA04A00B45CEE /* AppDelegate.swift */; };
 		90E99FB41F6FA04A00B45CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E99FB31F6FA04A00B45CEE /* ViewController.swift */; };
 		90E99FB71F6FA04A00B45CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E99FB51F6FA04A00B45CEE /* Main.storyboard */; };
@@ -53,6 +59,12 @@
 		7FA6D5B180E077FC583CCE3D /* Pods-OnDotDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDotDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDotDemoTests/Pods-OnDotDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8509DEDAB48F894F3AD964CA /* Pods-OnDotDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDotDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnDotDemo/Pods-OnDotDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		90DF89EA1FA305E300021192 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		90DF89EC1FA3336F00021192 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		90DF89F81FA33C0D00021192 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		90DF89F91FA33C0D00021192 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		90DF89FC1FA3431E00021192 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		90DF89FD1FA3431E00021192 /* CoreDataCntrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataCntrl.swift; sourceTree = "<group>"; };
+		90DF8A001FA3434100021192 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		90E99FAE1F6FA04A00B45CEE /* OnDotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnDotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E99FB11F6FA04A00B45CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E99FB31F6FA04A00B45CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,7 +136,13 @@
 		90DF89E71FA2FD0D00021192 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				90DF8A001FA3434100021192 /* PhotoCell.swift */,
+				90DF89FC1FA3431E00021192 /* APIService.swift */,
+				90DF89FD1FA3431E00021192 /* CoreDataCntrl.swift */,
+				90DF89F81FA33C0D00021192 /* Photo+CoreDataClass.swift */,
+				90DF89F91FA33C0D00021192 /* Photo+CoreDataProperties.swift */,
 				90DF89E91FA305E300021192 /* CoreDataModel.xcdatamodeld */,
+				90DF89EC1FA3336F00021192 /* CoreDataManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -541,9 +559,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DF89FB1FA33C0D00021192 /* Photo+CoreDataProperties.swift in Sources */,
 				90E99FE11F6FA8E300B45CEE /* DetailViewController.swift in Sources */,
 				90ED6CCC1FA09D2500643158 /* UserObject.swift in Sources */,
 				90E99FB41F6FA04A00B45CEE /* ViewController.swift in Sources */,
+				90DF89FE1FA3431E00021192 /* APIService.swift in Sources */,
+				90DF89FF1FA3431E00021192 /* CoreDataCntrl.swift in Sources */,
+				90DF89FA1FA33C0D00021192 /* Photo+CoreDataClass.swift in Sources */,
 				90DF89EB1FA305E300021192 /* CoreDataModel.xcdatamodeld in Sources */,
 				90E99FEF1F6FAB0E00B45CEE /* CircleChartView.swift in Sources */,
 				90ED6CCE1FA09DEE00643158 /* SingletonViewCntrl.swift in Sources */,
@@ -552,7 +574,9 @@
 				90E99FE91F6FAAC200B45CEE /* CustomCell.swift in Sources */,
 				90ED6CC91FA063AF00643158 /* APIHelperSingleton.swift in Sources */,
 				90E99FEB1F6FAADD00B45CEE /* ImageCacheLoader.swift in Sources */,
+				90DF8A011FA3434100021192 /* PhotoCell.swift in Sources */,
 				90E99FB21F6FA04A00B45CEE /* AppDelegate.swift in Sources */,
+				90DF89ED1FA3336F00021192 /* CoreDataManager.swift in Sources */,
 				90E99FED1F6FAAF800B45CEE /* LoadMoreActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
