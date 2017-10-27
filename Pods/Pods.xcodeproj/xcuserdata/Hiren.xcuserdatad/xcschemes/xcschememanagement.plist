@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-OnDotDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OnDotDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OnDotDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftRangeSlider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>048D172704E7EA283D41ED0D00EDA87D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A8E5D63CD1C564658F885717E84AFBF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E55FDBD3AF72FDD59AB6CD63C192B5A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC3ADE720B5B49579277644BA4B1E339</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE4C9996214E15D6026BF30247E899CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
